@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/switchtheme.js"></script>
     <title>Document</title>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -19,6 +20,7 @@
             <a href=""><ion-icon name="layers"></ion-icon>Quản lí</a>
             <a href=""><ion-icon name="code-slash"></ion-icon>  Nâng cao</a>
         </div>
-    </div>    
+    </div>
+    <div id="switchthemme_btn" onclick="switchTheme();"><ion-icon name="sparkles"></ion-icon></div>    
 </body>
 </html>

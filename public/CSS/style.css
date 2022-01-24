@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 
+:root{
+    background-image: url("../Images/desert.png");
+}
+
+[data-theme="night"]{
+    background-image: url("../Images/desert-night.png");
+}
+
+[data-theme="sunset"]{
+    background-image: url("../Images/desert-sunset.png");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +25,11 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Quicksand', sans-serif;  
-    background-image: url("../Images/desert.png");
+    background-image: var(--background-image);
     background-size: cover;
     color: white;
+    transition: 0.5s;
+    position: relative;
 }
 
 .container{
@@ -65,4 +79,16 @@ h1{
 .main_nav a:hover{
     color: black;
     background-color: white;
+}
+
+#switchtheme_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
 }
