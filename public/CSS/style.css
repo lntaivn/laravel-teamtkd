@@ -13,11 +13,54 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Quicksand', sans-serif;  
+    background-image: url("../Images/desert.png");
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(58, 54, 54, 0.11);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+}
+
+h1{
+    font-size: 55px;
 }
 
 .main_nav{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+.main_nav a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 5px;
+    border: solid white 1px;
+    transition: 0.1s;
+    font-size: 14px;
+}
+
+.main_nav a ion-icon{
+    margin-right: 5px;
+}
+
+.main_nav a:hover{
+    color: black;
+    background-color: white;
 }
