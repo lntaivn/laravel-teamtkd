@@ -1,10 +1,10 @@
-const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
+    document.documentElement.setAttribute('data-theme', localStorage.getItem('theme'));
 }
 
 function switchTheme(){
+    currentTheme = localStorage.getItem('theme');
     if (currentTheme === "night") {
         document.documentElement.setAttribute('data-theme', 'sunset');
         localStorage.setItem('theme', 'sunset');
@@ -15,5 +15,4 @@ function switchTheme(){
         document.documentElement.setAttribute('data-theme', 'night');
         localStorage.setItem('theme', 'night');
     }
-    
 }
