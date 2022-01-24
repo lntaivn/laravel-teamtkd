@@ -15,6 +15,7 @@
         <h1>QUẢN LÍ FORM</h1>
         <div class="main_nav">
             <a href=""><ion-icon name="add-circle"></ion-icon>Nhập form</a>
+            <a href=""><ion-icon name="document-text"></ion-icon>Excel Data</a>
             <a href=""><ion-icon name="layers"></ion-icon>Quản lí</a>
             <a href=""><ion-icon name="code-slash"></ion-icon>  Nâng cao</a>
         </div>
