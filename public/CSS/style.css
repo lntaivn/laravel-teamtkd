@@ -28,7 +28,7 @@ body{
     background-image: var(--background-image);
     background-size: cover;
     color: white;
-    transition: 0.5s;
+    transition: 0.2s;
     position: relative;
 }
 
@@ -81,7 +81,7 @@ h1{
     background-color: white;
 }
 
-#switchtheme_btn{
+#switchthemme_btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +89,14 @@ h1{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;   
+    font-size: 20px;
+    border-radius: 5px;
 }
+
+#switchthemme_btn:hover{
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.11);
+}
+
