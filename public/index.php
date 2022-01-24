@@ -14,8 +14,8 @@
     <div class="container">
         <h1>QUẢN LÍ FORM</h1>
         <div class="main_nav">
-            <a href=""><ion-icon name="add-circle"></ion-icon>Nhập form</a>
-            <a href=""><ion-icon name="document-text"></ion-icon>Excel Data</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSea0RzjSzQj6oPkamF3dhZA6k0KNjREqv9uuZcIFdXsKmVaNg/viewform?usp=sf_link"><ion-icon name="add-circle"></ion-icon>Nhập form</a>
+            <a href="https://docs.google.com/spreadsheets/d/11EgqzKttF-UgqRhnOCmSG8_j2r0HfjVE5KilSnBhAG4/edit?resourcekey#gid=1688646093"><ion-icon name="document-text"></ion-icon>Excel Data</a>
             <a href=""><ion-icon name="layers"></ion-icon>Quản lí</a>
             <a href=""><ion-icon name="code-slash"></ion-icon>  Nâng cao</a>
         </div>
