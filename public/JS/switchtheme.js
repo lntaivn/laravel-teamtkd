@@ -11,6 +11,9 @@ function switchTheme(){
     } else if(currentTheme === "sunset"){
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
+    } else if(currentTheme === "light"){
+        document.documentElement.setAttribute('data-theme', 'sunset2');
+        localStorage.setItem('theme', 'sunset2');
     } else {
         document.documentElement.setAttribute('data-theme', 'night');
         localStorage.setItem('theme', 'night');

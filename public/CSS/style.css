@@ -12,6 +12,10 @@
     background-image: url("../Images/desert-sunset.png");
 }
 
+[data-theme="sunset2"]{
+    background-image: url("../Images/desert-sunset2.png");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +27,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
     min-height: 100vh;
+    width: 100vw;
     font-family: 'Quicksand', sans-serif;  
     background-image: var(--background-image);
     background-size: cover;
