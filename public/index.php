@@ -16,7 +16,7 @@
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSea0RzjSzQj6oPkamF3dhZA6k0KNjREqv9uuZcIFdXsKmVaNg/viewform?usp=sf_link"><ion-icon name="add-circle"></ion-icon>Nhập form</a>
             <a href="https://docs.google.com/spreadsheets/d/11EgqzKttF-UgqRhnOCmSG8_j2r0HfjVE5KilSnBhAG4/edit?resourcekey#gid=1688646093"><ion-icon name="document-text"></ion-icon>Excel Data</a>
             <a href=""><ion-icon name="layers"></ion-icon>Quản lí</a>
-            <a href=""><ion-icon name="code-slash"></ion-icon>  Nâng cao</a>
+            <a href=""><ion-icon name="code-slash"></ion-icon>Nâng cao</a>
         </div>
     </div>
     <div id="switchthemme_btn" onclick="switchTheme();"><ion-icon name="sparkles"></ion-icon></div>    
